@@ -166,4 +166,24 @@
       previousTrigger = null;
     });
   }
+
+  // Section entrances echo the older ATUS site while keeping content readable without JS.
+  if (typeof IntersectionObserver !== 'undefined' && !reducedMotion.matches) {
+    const revealTargets = document.querySelectorAll(
+      '.story-intro, .story-occasions, .section-heading, .catalog-toolbar, .product-grid, .custom-art, .custom-copy, .process-heading, .process-list, .lookbook-note, .faq-heading, .faq-list, .closing-inner'
+    );
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px 45px 0px' });
+
+    revealTargets.forEach((target) => {
+      target.classList.add('reveal-pending');
+      revealObserver.observe(target);
+    });
+  }
+
 })();
