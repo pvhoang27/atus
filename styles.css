@@ -582,3 +582,7 @@ h1{font-size:clamp(48px,5.05vw,76px);font-weight:600;line-height:1.18;letter-spa
  .hero-copy,.hero-photo-main,.hero-photo-secondary{animation:none}
  .js-ready .reveal-pending{opacity:1;transform:none;transition:none}
 }
+/* Keep every section readable during full-page captures and before scrolling. */
+@media(prefers-reduced-motion:no-preference){.js-ready .reveal-pending{opacity:1;transform:translateY(18px)}}
+/* Deep orange remains legible on the oat and lookbook backgrounds. */
+.section-label,.lookbook-note>span,.process-list .step-number{color:#af3214}
