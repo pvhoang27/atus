@@ -2,3 +2,5 @@
 Thumbs.db
 .netlify/
 *.log
+output/
+.playwright-cli/

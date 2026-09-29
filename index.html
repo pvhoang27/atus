@@ -1,102 +1,314 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ATUS Clothing — thêu vi tính theo yêu cầu và áo thêu may sẵn." />
-  <title>ATUS Clothing — Những sợi chỉ gắn kết</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATUS Clothing | Thêu vi tính theo yêu cầu tại Hà Nội</title>
+  <meta name="description" content="ATUS Clothing — thêu vi tính, thêu áo theo yêu cầu tại Hà Nội. Khám phá 18 mẫu áo có sẵn đồng giá 280.000đ. Gửi ý tưởng và nhận báo giá qua Zalo 0944001592.">
+  <meta name="theme-color" content="#4b2431">
+  <link rel="canonical" href="https://gorgeous-dasik-37c46c.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="ATUS Clothing">
+  <meta property="og:title" content="ATUS Clothing — Những sợi chỉ gắn kết">
+  <meta property="og:description" content="Thêu vi tính theo yêu cầu tại Hà Nội. Chọn một mẫu áo bạn thích, hoặc cùng ATUS thêu nên câu chuyện của riêng bạn.">
+  <meta property="og:url" content="https://gorgeous-dasik-37c46c.netlify.app/">
+  <meta property="og:image" content="https://gorgeous-dasik-37c46c.netlify.app/assets/products/03-spider-gwen.jpg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Áo thêu Spider-Gwen từ bộ sưu tập ATUS Clothing">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ATUS Clothing — Những sợi chỉ gắn kết">
+  <meta name="twitter:description" content="Thêu vi tính và áo thêu theo yêu cầu tại Hà Nội.">
+  <meta name="twitter:image" content="https://gorgeous-dasik-37c46c.netlify.app/assets/products/03-spider-gwen.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/be-vietnam-pro-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://gorgeous-dasik-37c46c.netlify.app/#website",
+      "url": "https://gorgeous-dasik-37c46c.netlify.app/",
+      "name": "ATUS Clothing",
+      "inLanguage": "vi-VN",
+      "publisher": {
+        "@id": "https://gorgeous-dasik-37c46c.netlify.app/#store"
+      }
+    },
+    {
+      "@type": "ClothingStore",
+      "@id": "https://gorgeous-dasik-37c46c.netlify.app/#store",
+      "name": "ATUS Clothing",
+      "url": "https://gorgeous-dasik-37c46c.netlify.app/",
+      "image": "https://gorgeous-dasik-37c46c.netlify.app/assets/products/03-spider-gwen.jpg",
+      "telephone": "+84944001592",
+      "description": "Thêu vi tính, thêu áo theo yêu cầu và áo thêu có sẵn tại Hà Nội.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Số 4 ngõ Tạm Thương, Hoàn Kiếm",
+        "addressLocality": "Hà Nội",
+        "addressCountry": "VN"
+      },
+      "sameAs": [
+        "https://shopee.vn/atus.clothing"
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Thêu vi tính theo yêu cầu",
+      "serviceType": "Thêu áo theo yêu cầu",
+      "provider": {
+        "@id": "https://gorgeous-dasik-37c46c.netlify.app/#store"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Hà Nội"
+      },
+      "url": "https://gorgeous-dasik-37c46c.netlify.app/#custom"
+    }
+  ]
+}</script>
 </head>
 <body>
-  <div class="announcement">Miễn phí tư vấn & lên demo thêu — Nhận đơn từ 01 sản phẩm</div>
-  <header class="nav-wrap">
-    <a class="logo" href="#top" aria-label="ATUS Clothing">ATUS<span>®</span></a>
-    <nav class="desktop-nav" aria-label="Điều hướng chính">
-      <a href="#shop">Áo có sẵn</a><a href="#custom">Thêu theo yêu cầu</a><a href="#about">Về ATUS</a>
-    </nav>
-    <a class="nav-cta" href="https://zalo.me/0944001592" target="_blank" rel="noopener">Đặt áo qua Zalo <span>↗</span></a>
-    <button class="menu-btn" aria-label="Mở menu" aria-expanded="false"><i></i><i></i></button>
+  <a class="skip-link" href="#main">Đi đến nội dung</a>
+  <div class="announcement"><span>Thêu một điều riêng. Giữ một điều thương.</span><a href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Cùng ATUS lên ý tưởng <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="wordmark" href="#top" aria-label="ATUS Clothing — Trang chủ"><span class="wordmark-main">atus<span class="wordmark-thread" aria-hidden="true">✳</span></span><span class="wordmark-sub">clothing</span></a>
+      <nav class="main-nav" id="mainNav" aria-label="Điều hướng chính"><a href="#shop">Áo có sẵn</a><a href="#custom">Thêu theo yêu cầu</a><a href="#story">Câu chuyện ATUS</a><a href="#faq">Hỏi & đáp</a></nav>
+      <div class="header-actions"><a class="button button-small" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Gửi ý tưởng <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Mở menu" hidden><span></span><span></span></button></div>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-gallery" aria-label="Bộ sưu tập áo thêu ATUS Clothing">
-        <img class="hero-main-img" src="assets/products/12-tom-jerry.jpg" alt="Áo thêu Tom và Jerry của ATUS Clothing" />
-        <img class="hero-side-img top" src="assets/products/09-powerpuff-girls.jpg" alt="Áo thêu Powerpuff Girls của ATUS Clothing" />
-        <img class="hero-side-img bottom" src="assets/products/14-heart-couple.jpg" alt="Áo thêu trái tim của ATUS Clothing" />
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <p class="hero-location"><span class="status-dot" aria-hidden="true"></span>Thêu vi tính theo yêu cầu tại Hà Nội</p>
+        <h1 id="heroTitle">Những sợi chỉ<br>gắn kết.</h1>
+        <p class="hero-description">Một hình thêu nhỏ, một điều thật riêng. Chọn chiếc áo bạn thích, hoặc cùng ATUS biến ý tưởng thành thứ có thể mặc mỗi ngày.</p>
+        <div class="hero-actions"><a class="button " href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Thêu theo ý bạn <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="#shop">Khám phá áo có sẵn <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg></a></div>
+        <div class="hero-note"><svg width="48" height="38" viewBox="0 0 48 38" fill="none" aria-hidden="true"><path d="M2 20c8-13 21 21 33 2S23-4 20 10s21 20 25 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 3"/></svg><p>Gửi một hình vẽ. Một lời nhắn.<br>Hay một điều bạn muốn giữ lại.</p></div>
       </div>
-      <div class="hero-shade"></div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow">EMBROIDERY STUDIO · HANOI</p>
-        <h1>Những sợi chỉ<br><em>gắn kết.</em></h1>
-        <p class="hero-desc">Biến hình ảnh, kỷ niệm và ý tưởng của bạn thành từng đường chỉ — bền đẹp trên chiếc áo mặc mỗi ngày.</p>
-        <div class="hero-actions"><a class="btn primary" href="https://zalo.me/0944001592" target="_blank" rel="noopener">Thêu áo của bạn</a><a class="text-link" href="#shop">Xem áo có sẵn <span>↓</span></a></div>
-      </div>
-      <div class="hero-stamp"><span>MADE WITH</span><b>♥</b><span>IN VIETNAM</span></div>
-      <div class="scroll-note">KÉO ĐỂ KHÁM PHÁ <i></i></div>
-    </section>
-
-    <section class="marquee" aria-label="Dịch vụ nổi bật"><div>THÊU VI TÍNH <b>✦</b> ÁO MAY SẴN <b>✦</b> THÊU TỪ 01 ÁO <b>✦</b> CÁ NHÂN HOÁ <b>✦</b> THÊU VI TÍNH <b>✦</b> ÁO MAY SẴN <b>✦</b></div></section>
-
-    <section class="intro section-pad" id="about">
-      <div class="section-index">01 / CÂU CHUYỆN</div>
-      <div class="intro-copy reveal">
-        <p class="kicker">Mỗi chiếc áo, một câu chuyện</p>
-        <h2>Không chỉ là một hình thêu.<br>Đó là thứ <em>thuộc về bạn.</em></h2>
-      </div>
-      <p class="intro-note reveal">ATUS nhận thêu từ những ý tưởng rất riêng: một nhân vật bạn yêu, nét vẽ nguệch ngoạc, khoảnh khắc của hai người — và cả những điều chưa kịp gọi tên.</p>
-    </section>
-
-    <section class="collection section-pad" id="shop">
-      <div class="section-head"><div><span class="section-index">02 / SHOP</span><h2>Tất cả sản phẩm</h2></div><a href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener" class="text-link">Gian hàng Shopee <span>↗</span></a></div>
-      <div class="product-grid">
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/47268290997" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/01-kakashi.jpg" alt="Áo thêu Kakashi Hatake"/><span class="pill dark">SHOPEE</span></div><div class="product-info"><div><h3>Kakashi Hatake Tee</h3><p>Thêu vi tính · Unisex form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/41384200211" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/02-spiderman.jpg" alt="Áo thêu Spiderman"/></div><div class="product-info"><div><h3>Spiderman Tee</h3><p>Thêu vi tính · Tay lỡ</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/55718158157" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/03-spider-gwen.jpg" alt="Áo thêu Spider-Gwen"/><span class="pill">NEW</span></div><div class="product-info"><div><h3>Spider-Gwen Tee</h3><p>Thêu vi tính · Unisex form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/52068216822" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/04-oggy.jpg" alt="Áo thêu mèo Oggy"/></div><div class="product-info"><div><h3>Oggy Tee</h3><p>Thêu vi tính · Unisex form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/24998486270" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/05-zootopia.jpg" alt="Áo đôi thêu Zootopia"/></div><div class="product-info"><div><h3>Zootopia Couple Tee</h3><p>Nick & Judy · Áo đôi</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/50866778653" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/06-dino-couple.jpg" alt="Áo đôi thêu khủng long"/></div><div class="product-info"><div><h3>Dino Couple Tee</h3><p>Thêu chỉ · Áo đôi unisex</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/54866753996" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/07-doc-lap-tu-do.jpg" alt="Áo thêu Độc Lập Tự Do"/></div><div class="product-info"><div><h3>Độc Lập Tự Do Tee</h3><p>Vietnam Collection · Unisex</p></div><b>280.000đ</b></div></a>
-        <a class="product-card reveal" href="https://shopee.vn/product/1912950911/57917657596" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/08-ti-viet-na-viet.jpg" alt="Áo đôi Tí Việt và Na Việt"/></div><div class="product-info"><div><h3>Tí Việt & Na Việt</h3><p>Vietnam Collection · Áo đôi</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/57767981828" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/09-powerpuff-girls.jpg" alt="Áo thêu The Powerpuff Girls"/><span class="pill">BEST SELLER</span></div><div class="product-info"><div><h3>Powerpuff Girls Tee</h3><p>Thêu vi tính · Cotton form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/57667519064" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/10-cartoon-couple.jpg" alt="Áo thêu nhân vật hoạt hình cặp đôi"/></div><div class="product-info"><div><h3>Cartoon Couple Tee</h3><p>Thêu vi tính · Trắng, đen, be, xám</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/57067811355" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/11-lucky-777.jpg" alt="Áo thêu 777 Lucky"/></div><div class="product-info"><div><h3>777 Lucky Tee</h3><p>Thêu vi tính · Unisex tay lỡ</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/47468136731" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/12-tom-jerry.jpg" alt="Áo đôi thêu Tom và Jerry"/></div><div class="product-info"><div><h3>Tom & Jerry Couple Tee</h3><p>Thêu vi tính · Unisex form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/40234493635" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/13-heart.jpg" alt="Áo thêu hình trái tim"/></div><div class="product-info"><div><h3>Heart Tee</h3><p>Thêu vi tính · Cotton form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/27245799373" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/14-heart-couple.jpg" alt="Áo đôi thêu trái tim"/></div><div class="product-info"><div><h3>Heart Couple Tee</h3><p>Thêu trái tim · Áo đôi oversize</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/45018295778" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/15-panda.jpg" alt="Áo thêu gấu trúc"/></div><div class="product-info"><div><h3>Panda Tee</h3><p>Thêu vi tính · Unisex nam nữ</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/43534435050" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/16-espresso-yourself.jpg" alt="Áo mèo Espresso Yourself"/></div><div class="product-info"><div><h3>Espresso Yourself Tee</h3><p>Unisex · Tay ngắn form rộng</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/50267411094" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/17-be-mine.jpg" alt="Áo thêu trái tim nơ Be Mine"/></div><div class="product-info"><div><h3>Be Mine Tee</h3><p>Thêu trái tim nơ · Cotton unisex</p></div><b>280.000đ</b></div></a>
-        <a class="product-card product-extra reveal" href="https://shopee.vn/product/1912950911/46817408289" target="_blank" rel="noopener"><div class="product-img"><img src="assets/products/18-elmo.jpg" alt="Áo thêu hoạt hình Elmo"/></div><div class="product-info"><div><h3>Elmo Tee</h3><p>Thêu hoạt hình · Cotton dày mềm</p></div><b>280.000đ</b></div></a>
-      </div>
-      <button class="catalog-toggle" id="catalogToggle" type="button" aria-expanded="false">Xem tất cả 18 mẫu <span>↓</span></button>
-      <div class="shop-strip reveal"><div><span>SHOPEE OFFICIAL STORE</span><h3>Thích mẫu nào,<br>chốt đơn mẫu đó.</h3></div><a class="btn primary" href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener">Mua trên Shopee <span>↗</span></a></div>
-    </section>
-
-    <section class="custom" id="custom">
-      <div class="custom-visual custom-collage"><img class="custom-main" src="assets/products/18-elmo.jpg" alt="Áo thêu Elmo của ATUS Clothing"><img class="custom-detail" src="assets/products/16-espresso-yourself.jpg" alt="Áo Espresso Yourself của ATUS Clothing"><span class="collage-tag">ATUS / 2026</span></div>
-      <div class="custom-copy reveal"><span class="section-index light">03 / CUSTOM</span><p class="kicker">Một chiếc áo, chỉ mình bạn có</p><h2>Gửi ý tưởng.<br>ATUS lo phần <em>còn lại.</em></h2><p>Từ ảnh chụp, hình vẽ đến một câu chữ — đội ngũ ATUS sẽ tư vấn vị trí, màu chỉ và kích thước phù hợp nhất.</p>
-        <ol><li><span>01</span><div><b>Gửi ý tưởng</b><small>Ảnh, hình vẽ hoặc mô tả của bạn</small></div></li><li><span>02</span><div><b>Duyệt demo</b><small>Xem trước thiết kế và chỉnh sửa</small></div></li><li><span>03</span><div><b>Thêu & giao</b><small>Hoàn thiện trong 3–7 ngày</small></div></li></ol>
-        <a class="btn light-btn" href="https://zalo.me/0944001592" target="_blank" rel="noopener">Bắt đầu ngay <span>↗</span></a>
+      <div class="hero-art">
+        <svg class="hero-stitch" viewBox="0 0 700 650" fill="none" aria-hidden="true"><path d="M9 511C99 663 637 571 665 311S410 56 355 140 583 296 628 173 518-9 434 12" stroke="currentColor" stroke-width="2" stroke-dasharray="5 7"/></svg>
+        <figure class="hero-photo hero-photo-main"><img src="assets/products/web/03-spider-gwen.webp" srcset="assets/products/web/03-spider-gwen-480.webp 480w, assets/products/web/03-spider-gwen.webp 960w" sizes="(max-width: 700px) 66vw, 37vw" width="960" height="960" alt="Mẫu áo thêu Spider-Gwen của ATUS Clothing" fetchpriority="high" decoding="async"><figcaption>Hình thêu nhỏ. Cá tính riêng.</figcaption></figure>
+        <figure class="hero-photo hero-photo-secondary"><img src="assets/products/web/17-be-mine.webp" srcset="assets/products/web/17-be-mine-480.webp 480w, assets/products/web/17-be-mine.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Mẫu áo thêu trái tim nơ Be Mine" loading="lazy" decoding="async"><figcaption>Be Mine / ATUS</figcaption></figure>
+        <div class="hero-tag"><span>Made personal.</span><span>Thêu bằng chỉ.<br>Kể bằng cảm xúc.</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.4 5.6a5.5 5.5 0 0 0-7.8 0l-.6.6-.6-.6a5.5 5.5 0 0 0-7.8 7.8L12 22l8.4-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg></div>
       </div>
     </section>
 
-    <section class="brand-values">
-      <div><span>01</span><b>Cotton dày mềm</b><p>Form rộng dễ mặc mỗi ngày</p></div>
-      <div><span>02</span><b>Thêu vi tính sắc nét</b><p>Bền màu, nổi khối và có chiều sâu</p></div>
-      <div><span>03</span><b>Thêu từ 01 áo</b><p>Cá nhân hoá không cần số lượng lớn</p></div>
+    <div class="service-strip"><div class="container"><span>Thêu vi tính</span><i aria-hidden="true">✳</i><span>Cá nhân hoá theo yêu cầu</span><i aria-hidden="true">✳</i><span>Áo thêu có sẵn</span><i aria-hidden="true">✳</i><span>Từ Hà Nội, với thương yêu</span></div></div>
+
+    <section class="story-section section-space container" id="story" aria-labelledby="storyTitle">
+      <div class="story-intro"><span class="section-label">Một chút về ATUS</span><h2 id="storyTitle">Có những điều,<br>mình muốn mặc lên.</h2><p>Một nhân vật mê từ bé. Một kỷ niệm của hai người. Hay cái tên thân thuộc. ATUS dùng thêu vi tính để đưa những điều ấy lên áo, qua từng nét chỉ có hình, có sắc, có câu chuyện.</p></div>
+      <div class="story-occasions">
+        <a href="#custom" class="occasion"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.4 5.6a5.5 5.5 0 0 0-7.8 0l-.6.6-.6-.6a5.5 5.5 0 0 0-7.8 7.8L12 22l8.4-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><div><h3>Cho riêng bạn</h3><p>Tên riêng, nét vẽ, câu chữ.<br>Một dấu ấn rất mình.</p></div><span class="occasion-link" aria-hidden="true">↗</span></a>
+        <a href="#shop" class="occasion"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="8" r="4"/><circle cx="17" cy="8" r="4"/><path d="M1 22v-2a7 7 0 0 1 14 0v2m0-8a7 7 0 0 1 9 6v2"/></svg><div><h3>Cho hai người</h3><p>Hai chiếc áo. Một kết nối.<br>Cùng nhau giữ một điều vui.</p></div><span class="occasion-link" aria-hidden="true">↗</span></a>
+        <a href="#custom" class="occasion"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg><div><h3>Cho một món quà</h3><p>Một điều được nghĩ riêng.<br>Để người nhận thấy được thương.</p></div><span class="occasion-link" aria-hidden="true">↗</span></a>
+      </div>
     </section>
 
+    <section class="collection-section section-space" id="shop" aria-labelledby="shopTitle">
+      <div class="container">
+        <div class="section-heading"><div><span class="section-label">Chọn từ bộ sưu tập</span><h2 id="shopTitle">Một chiếc áo. Một điều rất bạn.</h2></div><div class="collection-note"><span class="price-label">Đồng giá <b>280.000đ</b></span><p>Áp dụng cho các mẫu có sẵn bên dưới.</p></div></div>
+        <div class="catalog-toolbar"><div class="catalog-filters" role="group" aria-label="Lọc mẫu áo" hidden><button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">Tất cả</button><button type="button" class="filter-button" data-filter="character" aria-pressed="false">Nhân vật yêu thích</button><button type="button" class="filter-button" data-filter="couple" aria-pressed="false">Dành cho hai người</button><button type="button" class="filter-button" data-filter="symbols" aria-pressed="false">Chữ & biểu tượng</button></div><p class="catalog-count" id="catalogCount" role="status" aria-live="polite">18 mẫu từ ATUS</p></div>
+        <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="character" data-name="Spider-Gwen">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/55718158157" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/03-spider-gwen.webp" srcset="assets/products/web/03-spider-gwen-480.webp 480w, assets/products/web/03-spider-gwen.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Spider-Gwen của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Spider-Gwen" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/55718158157" target="_blank" rel="noopener noreferrer">Spider-Gwen<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card" data-category="symbols couple" data-name="Be Mine">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/50267411094" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/17-be-mine.webp" srcset="assets/products/web/17-be-mine-480.webp 480w, assets/products/web/17-be-mine.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu trái tim nơ Be Mine của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Be Mine" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/50267411094" target="_blank" rel="noopener noreferrer">Be Mine<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu trái tim nơ</p>
+        </article>
+        <article class="product-card" data-category="character couple" data-name="Tom &amp; Jerry">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/47468136731" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/12-tom-jerry.webp" srcset="assets/products/web/12-tom-jerry-480.webp 480w, assets/products/web/12-tom-jerry.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu đôi Tom &amp; Jerry của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Tom &amp; Jerry" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/47468136731" target="_blank" rel="noopener noreferrer">Tom &amp; Jerry<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu đôi</p>
+        </article>
+        <article class="product-card" data-category="character" data-name="Gấu trúc">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/45018295778" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/15-panda.webp" srcset="assets/products/web/15-panda-480.webp 480w, assets/products/web/15-panda.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Gấu trúc của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Gấu trúc" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/45018295778" target="_blank" rel="noopener noreferrer">Gấu trúc<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card" data-category="character" data-name="Kakashi Hatake">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/47268290997" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/01-kakashi.webp" srcset="assets/products/web/01-kakashi-480.webp 480w, assets/products/web/01-kakashi.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Kakashi Hatake của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Kakashi Hatake" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/47268290997" target="_blank" rel="noopener noreferrer">Kakashi Hatake<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card" data-category="symbols" data-name="777 Lucky">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/57067811355" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/11-lucky-777.webp" srcset="assets/products/web/11-lucky-777-480.webp 480w, assets/products/web/11-lucky-777.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu chữ &amp; biểu tượng 777 Lucky của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh 777 Lucky" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/57067811355" target="_blank" rel="noopener noreferrer">777 Lucky<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu chữ & biểu tượng</p>
+        </article>
+        <article class="product-card" data-category="character" data-name="The Powerpuff Girls">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/57767981828" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/09-powerpuff-girls.webp" srcset="assets/products/web/09-powerpuff-girls-480.webp 480w, assets/products/web/09-powerpuff-girls.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật The Powerpuff Girls của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh The Powerpuff Girls" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/57767981828" target="_blank" rel="noopener noreferrer">The Powerpuff Girls<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card" data-category="couple symbols" data-name="Trái tim đôi">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/27245799373" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/14-heart-couple.webp" srcset="assets/products/web/14-heart-couple-480.webp 480w, assets/products/web/14-heart-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo đôi thêu trái tim của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Trái tim đôi" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/27245799373" target="_blank" rel="noopener noreferrer">Trái tim đôi<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu đôi</p>
+        </article>
+        <article class="product-card is-extra" data-category="character" data-name="Spiderman">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/41384200211" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/02-spiderman.webp" srcset="assets/products/web/02-spiderman-480.webp 480w, assets/products/web/02-spiderman.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Spiderman của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Spiderman" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/41384200211" target="_blank" rel="noopener noreferrer">Spiderman<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card is-extra" data-category="character" data-name="Mèo Oggy">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/52068216822" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/04-oggy.webp" srcset="assets/products/web/04-oggy-480.webp 480w, assets/products/web/04-oggy.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Mèo Oggy của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Mèo Oggy" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/52068216822" target="_blank" rel="noopener noreferrer">Mèo Oggy<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        <article class="product-card is-extra" data-category="character couple" data-name="Nick &amp; Judy">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/24998486270" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/05-zootopia.webp" srcset="assets/products/web/05-zootopia-480.webp 480w, assets/products/web/05-zootopia.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo đôi Zootopia Nick &amp; Judy của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Nick &amp; Judy" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/24998486270" target="_blank" rel="noopener noreferrer">Nick &amp; Judy<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo đôi Zootopia</p>
+        </article>
+        <article class="product-card is-extra" data-category="couple" data-name="Khủng long đôi">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/50866778653" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/06-dino-couple.webp" srcset="assets/products/web/06-dino-couple-480.webp 480w, assets/products/web/06-dino-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo đôi thêu khủng long của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Khủng long đôi" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/50866778653" target="_blank" rel="noopener noreferrer">Khủng long đôi<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu đôi</p>
+        </article>
+        <article class="product-card is-extra" data-category="symbols" data-name="Độc Lập Tự Do">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/54866753996" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/07-doc-lap-tu-do.webp" srcset="assets/products/web/07-doc-lap-tu-do-480.webp 480w, assets/products/web/07-doc-lap-tu-do.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu Việt Nam Độc Lập Tự Do của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Độc Lập Tự Do" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/54866753996" target="_blank" rel="noopener noreferrer">Độc Lập Tự Do<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu Việt Nam</p>
+        </article>
+        <article class="product-card is-extra" data-category="character couple" data-name="Tí Việt &amp; Na Việt">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/57917657596" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/08-ti-viet-na-viet.webp" srcset="assets/products/web/08-ti-viet-na-viet-480.webp 480w, assets/products/web/08-ti-viet-na-viet.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu đôi Tí Việt &amp; Na Việt của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Tí Việt &amp; Na Việt" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/57917657596" target="_blank" rel="noopener noreferrer">Tí Việt &amp; Na Việt<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu đôi</p>
+        </article>
+        <article class="product-card is-extra" data-category="character couple" data-name="Hoạt hình cặp đôi">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/57667519064" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/10-cartoon-couple.webp" srcset="assets/products/web/10-cartoon-couple-480.webp 480w, assets/products/web/10-cartoon-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu đôi Hoạt hình cặp đôi của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Hoạt hình cặp đôi" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/57667519064" target="_blank" rel="noopener noreferrer">Hoạt hình cặp đôi<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu đôi</p>
+        </article>
+        <article class="product-card is-extra" data-category="symbols couple" data-name="Trái tim">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/40234493635" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/13-heart.webp" srcset="assets/products/web/13-heart-480.webp 480w, assets/products/web/13-heart.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu biểu tượng Trái tim của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Trái tim" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/40234493635" target="_blank" rel="noopener noreferrer">Trái tim<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu biểu tượng</p>
+        </article>
+        <article class="product-card is-extra" data-category="symbols" data-name="Espresso Yourself">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/43534435050" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/16-espresso-yourself.webp" srcset="assets/products/web/16-espresso-yourself-480.webp 480w, assets/products/web/16-espresso-yourself.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo hình mèo &amp; cà phê Espresso Yourself của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Espresso Yourself" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/43534435050" target="_blank" rel="noopener noreferrer">Espresso Yourself<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo hình mèo & cà phê</p>
+        </article>
+        <article class="product-card is-extra" data-category="character" data-name="Elmo">
+          <div class="product-photo">
+            <a class="product-image-link" href="https://shopee.vn/product/1912950911/46817408289" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img class="product-image" src="assets/products/web/18-elmo.webp" srcset="assets/products/web/18-elmo-480.webp 480w, assets/products/web/18-elmo.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu nhân vật Elmo của ATUS Clothing" loading="lazy" decoding="async"></a>
+            <button class="quick-view" type="button" aria-label="Xem nhanh Elmo" data-quick-view hidden>Xem nhanh <span aria-hidden="true">+</span></button>
+          </div>
+          <div class="product-heading"><h3><a href="https://shopee.vn/product/1912950911/46817408289" target="_blank" rel="noopener noreferrer">Elmo<span class="sr-only"> — xem trên Shopee</span></a></h3><span class="product-price">280.000đ</span></div>
+          <p class="product-type">Áo thêu nhân vật</p>
+        </article>
+        </div>
+        <div class="catalog-footer"><button class="button button-outline" id="catalogToggle" type="button" aria-expanded="false" aria-controls="productGrid" hidden>Xem thêm 10 mẫu <span aria-hidden="true">+</span></button><a class="text-link shopee-link" href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener noreferrer">Ghé gian hàng Shopee <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+        <p class="catalog-help">Chọn màu và kích cỡ tại trang sản phẩm trên Shopee. Cần tư vấn? <a href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Nhắn ATUS qua Zalo.</a></p>
+      </div>
+    </section>
+
+    <section class="custom-section section-space" id="custom" aria-labelledby="customTitle">
+      <div class="container custom-layout">
+        <div class="custom-art"><div class="custom-mount"><img class="custom-image" src="assets/products/web/06-dino-couple.webp" srcset="assets/products/web/06-dino-couple-480.webp 480w, assets/products/web/06-dino-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Cận cảnh hai hình thêu khủng long trên áo ATUS" loading="lazy" decoding="async"><span class="fabric-label"><span>atus clothing</span><span>Những sợi chỉ gắn kết.</span></span></div><div class="custom-art-caption"><svg width="45" height="30" viewBox="0 0 45 30" fill="none" aria-hidden="true"><path d="M3 25c6-19 24-24 36-18m-9-5 10 4-5 10" stroke="currentColor" stroke-width="1.5"/></svg><span>Một ý tưởng. Hai nửa đáng yêu.</span></div></div>
+        <div class="custom-copy"><span class="section-label">Dịch vụ thêu vi tính theo yêu cầu</span><h2 id="customTitle">Bạn nghĩ ra.<br>ATUS thêu lại.</h2><p>Gửi một nét vẽ, tên riêng hay hình ảnh có ý nghĩa. Mình cùng trao đổi vị trí, kích thước và màu chỉ để tìm cách thể hiện đẹp trên chiếc áo của bạn.</p><div class="custom-options"><span>Tên & câu chữ</span><span>Hình vẽ & biểu tượng</span><span>Áo đôi & quà tặng</span></div><a class="button " href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Gửi mẫu & nhận báo giá <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><p class="custom-small">Báo giá riêng theo thiết kế và số lượng qua Zalo.</p></div>
+      </div>
+    </section>
+
+    <section class="process-section section-space container" aria-labelledby="processTitle">
+      <div class="process-heading"><span class="section-label">Từ ý tưởng đến chiếc áo</span><h2 id="processTitle">Bắt đầu bằng một tin nhắn.</h2><p>Bạn chưa cần một bản thiết kế hoàn chỉnh.<br>Cứ gửi điều đang nghĩ đến, ATUS cùng bạn đi tiếp.</p></div>
+      <ol class="process-list">
+        <li><span class="step-number" aria-hidden="true">01</span><h3>Kể ATUS nghe</h3><p>Gửi ảnh tham khảo hoặc mô tả ý tưởng. Thêm số lượng và ngày bạn cần áo, nếu đã có dự định.</p></li>
+        <li><span class="step-number" aria-hidden="true">02</span><h3>Cùng chọn từng chi tiết</h3><p>Trao đổi kiểu áo, vị trí thêu, kích thước và màu chỉ để ý tưởng phù hợp với thực tế.</p></li>
+        <li><span class="step-number" aria-hidden="true">03</span><h3>Chốt mẫu, hẹn ngày nhận</h3><p>Xác nhận thiết kế, chi phí và thời gian hoàn thiện với ATUS trước khi tiến hành đặt thêu.</p></li>
+      </ol>
+    </section>
+
+    <section class="lookbook" aria-label="Cảm hứng mặc áo ATUS">
+      <div class="lookbook-photo"><img src="assets/products/web/12-tom-jerry.webp" srcset="assets/products/web/12-tom-jerry-480.webp 480w, assets/products/web/12-tom-jerry.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Áo thêu Tom và Jerry trong một buổi đi chơi bên biển" loading="lazy" decoding="async"></div>
+      <div class="lookbook-note"><span>Wear what you love.</span><h2>Mang điều mình thích,<br>đi khắp nơi.</h2><p>Ngày đi cà phê, chuyến đi xa, hay buổi hẹn rất bình thường. Một hình thêu yêu thích cũng đủ làm chiếc áo thân quen hơn.</p><a class="text-link" href="#shop">Tìm mẫu của bạn <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+      <div class="lookbook-photo lookbook-photo-last"><img src="assets/products/web/10-cartoon-couple.webp" srcset="assets/products/web/10-cartoon-couple-480.webp 480w, assets/products/web/10-cartoon-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Hai mẫu áo thêu cặp đôi ATUS Clothing" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="faq-section section-space container" id="faq" aria-labelledby="faqTitle">
+      <div class="faq-heading"><span class="section-label">Một vài điều bạn có thể đang hỏi</span><h2 id="faqTitle">Trước khi đặt áo.</h2><p>Còn điều gì cần hỏi, cứ nhắn mình.</p><a class="text-link" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Zalo 0944 001 592 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+      <div class="faq-list"><details><summary>Mình cần chuẩn bị gì để đặt thêu theo yêu cầu?<span aria-hidden="true">+</span></summary><p>Bạn có thể gửi ảnh tham khảo, hình vẽ hoặc mô tả ý tưởng qua Zalo. Nếu đã có lựa chọn, gửi thêm vị trí thêu, kích thước mong muốn và số lượng để ATUS tư vấn cụ thể.</p></details>
+<details><summary>Thêu theo yêu cầu được báo giá thế nào?<span aria-hidden="true">+</span></summary><p>Chi phí phụ thuộc vào thiết kế, kích thước, vị trí thêu và số lượng. Gửi mẫu qua Zalo 0944 001 592 để nhận báo giá riêng. Mức 280.000đ trên website áp dụng cho các mẫu áo có sẵn được giới thiệu, không phải bảng giá thêu theo yêu cầu.</p></details>
+<details><summary>Mua áo có sẵn và chọn size ở đâu?<span aria-hidden="true">+</span></summary><p>Bấm vào mẫu áo để mở trang sản phẩm trên Shopee và xem màu, kích cỡ cùng các lựa chọn hiện có. Nếu phân vân, bạn có thể nhắn ATUS qua Zalo trước khi đặt.</p></details>
+<details><summary>Đơn thêu theo yêu cầu mất bao lâu?<span aria-hidden="true">+</span></summary><p>ATUS sẽ xác nhận thời gian theo thiết kế và số lượng bạn cần khi tư vấn. Nếu đặt làm quà hoặc có ngày cần nhận áo, hãy gửi kèm thời điểm đó khi trao đổi.</p></details>
+<details><summary>ATUS Clothing ở đâu?<span aria-hidden="true">+</span></summary><p>Địa chỉ của ATUS là Số 4 ngõ Tạm Thương, Hoàn Kiếm, Hà Nội. Bạn có thể gọi hoặc nhắn Zalo 0944 001 592 để trao đổi trước khi ghé.</p></details></div>
+    </section>
+
+    <section class="closing-section">
+      <div class="container closing-inner"><div><span class="section-label">Từ Hà Nội, gửi một điều riêng</span><h2>Câu chuyện tiếp theo,<br>mình thêu cùng bạn.</h2></div><div class="closing-action"><a class="button button-light" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Nhắn ATUS qua Zalo <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a href="tel:0944001592">Hoặc gọi 0944 001 592</a></div></div>
+      <svg class="closing-thread" viewBox="0 0 1200 130" fill="none" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 90C270 50 300 132 492 90s150-137 108-58 209 74 601 38" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 6"/></svg>
+    </section>
   </main>
 
-  <a class="zalo-float" href="https://zalo.me/0944001592" target="_blank" rel="noopener" aria-label="Chat với ATUS qua Zalo">
-    <span class="zalo-icon">Zalo</span><span class="zalo-label"><b>Chat Zalo</b><small>0944 001 592</small></span>
-  </a>
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="wordmark" href="#top" aria-label="ATUS Clothing — về đầu trang"><span class="wordmark-main">atus<span class="wordmark-thread" aria-hidden="true">✳</span></span><span class="wordmark-sub">clothing</span></a><p>Những sợi chỉ gắn kết.<br>Thêu vi tính, thêu theo yêu cầu.</p></div><div class="footer-address"><h2>Ghé ATUS tại Hà Nội</h2><address>Số 4 ngõ Tạm Thương,<br>Hoàn Kiếm, Hà Nội</address><a href="https://www.google.com/maps/search/?api=1&amp;query=S%E1%BB%91%204%20ng%C3%B5%20T%E1%BA%A1m%20Th%C6%B0%C6%A1ng%2C%20Ho%C3%A0n%20Ki%E1%BA%BFm%2C%20H%C3%A0%20N%E1%BB%99i" target="_blank" rel="noopener noreferrer">Xem đường đi ↗</a></div><div class="footer-links"><h2>Kết nối với ATUS</h2><a href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener noreferrer">Gian hàng Shopee</a><a href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Zalo 0944 001 592</a><a href="#custom">Thêu theo yêu cầu</a></div></div><div class="container footer-bottom"><p>© 2026 ATUS Clothing</p><a href="#top">Lên đầu trang ↑</a></div></footer>
 
-  <footer><a class="logo inverse" href="#top">ATUS<span>®</span></a><p>Những sợi chỉ gắn kết.</p><address>Số 4 ngõ Tạm Thương, Hoàn Kiếm, Hà Nội<br><a href="tel:0944001592">0944 001 592</a></address><p>© 2026 ATUS CLOTHING</p></footer>
-  <script src="script.js"></script>
+  <a class="zalo-float" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer" aria-label="Chat với ATUS qua Zalo 0944001592"><span class="zalo-symbol">Zalo</span><span class="zalo-text">Nhắn ATUS<small>0944 001 592</small></span></a>
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+    <form method="dialog"><button class="dialog-close" aria-label="Đóng xem nhanh" autofocus>×</button></form>
+    <div class="dialog-layout"><img id="dialogImage" width="960" height="960" alt=""><div class="dialog-copy"><span class="section-label">Từ bộ sưu tập ATUS</span><h2 id="dialogTitle"></h2><p id="dialogType"></p><p class="dialog-price">280.000đ</p><p>Xem lựa chọn màu, kích cỡ và thông tin chi tiết tại gian hàng Shopee của ATUS.</p><a id="dialogShopLink" class="button" target="_blank" rel="noopener noreferrer">Xem trên Shopee <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg></a><a class="text-link" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Tư vấn mẫu qua Zalo <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div></div>
+  </dialog>
 </body>
 </html>

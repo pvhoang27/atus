@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gorgeous-dasik-37c46c.netlify.app/sitemap.xml
