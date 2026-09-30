@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ATUS Clothing | Thêu vi tính theo yêu cầu tại Hà Nội</title>
-  <meta name="description" content="ATUS Clothing — thêu vi tính, thêu áo theo yêu cầu tại Hà Nội. Khám phá 18 mẫu áo có sẵn đồng giá 280.000đ. Gửi ý tưởng và nhận báo giá qua Zalo 0944001592.">
+  <meta name="description" content="ATUS Clothing nhận tư vấn, thiết kế mẫu và thêu áo polo, đồng phục, áo đôi theo yêu cầu tại Hà Nội. Áo thêu có sẵn 280.000đ. Zalo 0944001592.">
   <meta name="theme-color" content="#181813">
   <link rel="canonical" href="https://gorgeous-dasik-37c46c.netlify.app/">
   <meta property="og:type" content="website">
@@ -24,7 +24,9 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/be-vietnam-pro-400.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="services.css">
   <script src="script.js" defer></script>
+  <script src="services.js" defer></script>
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -42,13 +44,15 @@
       "@type": "ClothingStore",
       "@id": "https://gorgeous-dasik-37c46c.netlify.app/#store",
       "name": "ATUS Clothing",
+      "legalName": "HỘ KINH DOANH ATUS CLOTHING",
+      "identifier": {"@type": "PropertyValue", "propertyID": "Mã số hộ kinh doanh", "value": "001201012835"},
       "url": "https://gorgeous-dasik-37c46c.netlify.app/",
       "image": "https://gorgeous-dasik-37c46c.netlify.app/assets/products/03-spider-gwen.jpg",
       "telephone": "+84944001592",
       "description": "Thêu vi tính, thêu áo theo yêu cầu và áo thêu có sẵn tại Hà Nội.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Số 4 ngõ Tạm Thương, Hoàn Kiếm",
+        "streetAddress": "Số 4 ngõ Tạm Thương, phường Hoàn Kiếm",
         "addressLocality": "Hà Nội",
         "addressCountry": "VN"
       },
@@ -59,7 +63,8 @@
     {
       "@type": "Service",
       "name": "Thêu vi tính theo yêu cầu",
-      "serviceType": "Thêu áo theo yêu cầu",
+      "serviceType": "Tư vấn, thiết kế mẫu thêu và thêu áo theo yêu cầu",
+      "description": "Nhận tư vấn thiết kế mẫu thêu trên áo polo, áo đồng phục và áo đôi; lựa chọn vị trí, màu chỉ, kích thước và báo giá theo yêu cầu.",
       "provider": {
         "@id": "https://gorgeous-dasik-37c46c.netlify.app/#store"
       },
@@ -78,7 +83,7 @@
   <header class="site-header">
     <div class="header-inner container">
       <a class="wordmark" href="#top" aria-label="ATUS Clothing — Trang chủ"><span class="wordmark-main">atus<span class="wordmark-thread" aria-hidden="true">✳</span></span><span class="wordmark-sub">clothing</span></a>
-      <nav class="main-nav" id="mainNav" aria-label="Điều hướng chính"><a href="#shop">Áo có sẵn</a><a href="#custom">Thêu theo yêu cầu</a><a href="#story">Câu chuyện ATUS</a><a href="#faq">Hỏi & đáp</a></nav>
+      <nav class="main-nav" id="mainNav" aria-label="Điều hướng chính"><a href="#shop">Áo có sẵn</a><a href="#custom">Thêu theo yêu cầu</a><a href="#services">Polo & đồng phục</a><a href="#faq">Hỏi & đáp</a></nav>
       <div class="header-actions"><a class="button button-small" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Gửi ý tưởng <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Mở menu" hidden><span></span><span></span></button></div>
     </div>
   </header>
@@ -269,7 +274,64 @@
     <section class="custom-section section-space" id="custom" aria-labelledby="customTitle">
       <div class="container custom-layout">
         <div class="custom-art"><div class="custom-mount"><img class="custom-image" src="assets/products/web/06-dino-couple.webp" srcset="assets/products/web/06-dino-couple-480.webp 480w, assets/products/web/06-dino-couple.webp 960w" sizes="(max-width: 600px) 50vw, (max-width: 1000px) 40vw, 24vw" width="960" height="960" alt="Cận cảnh hai hình thêu khủng long trên áo ATUS" loading="lazy" decoding="async"><span class="fabric-label"><span>atus clothing</span><span>Những sợi chỉ gắn kết.</span></span></div><div class="custom-art-caption"><svg width="45" height="30" viewBox="0 0 45 30" fill="none" aria-hidden="true"><path d="M3 25c6-19 24-24 36-18m-9-5 10 4-5 10" stroke="currentColor" stroke-width="1.5"/></svg><span>Một ý tưởng. Hai nửa đáng yêu.</span></div></div>
-        <div class="custom-copy"><span class="section-label">Dịch vụ thêu vi tính theo yêu cầu</span><h2 id="customTitle">Bạn nghĩ ra.<br>ATUS thêu lại.</h2><p>Gửi một nét vẽ, tên riêng hay hình ảnh có ý nghĩa. Mình cùng trao đổi vị trí, kích thước và màu chỉ để tìm cách thể hiện đẹp trên chiếc áo của bạn.</p><div class="custom-options"><span>Tên & câu chữ</span><span>Hình vẽ & biểu tượng</span><span>Áo đôi & quà tặng</span></div><a class="button " href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Gửi mẫu & nhận báo giá <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><p class="custom-small">Báo giá riêng theo thiết kế và số lượng qua Zalo.</p></div>
+        <div class="custom-copy"><span class="section-label">Dịch vụ thêu vi tính theo yêu cầu</span><h2 id="customTitle">Bạn nghĩ ra.<br>ATUS thêu lại.</h2><p>Gửi một nét vẽ, tên riêng hay hình ảnh có ý nghĩa. Mình cùng trao đổi vị trí, kích thước và màu chỉ để tìm cách thể hiện đẹp trên chiếc áo của bạn.</p><div class="custom-options"><span>Tên & câu chữ</span><span>Hình vẽ & biểu tượng</span><span>Polo & đồng phục</span><span>Áo đôi & quà tặng</span></div><a class="button " href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Gửi mẫu & nhận báo giá <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><p class="custom-small">Báo giá riêng theo thiết kế và số lượng qua Zalo.</p></div>
+      </div>
+    </section>
+
+
+    <section class="services-section section-space" id="services" aria-labelledby="servicesTitle">
+      <div class="container">
+        <div class="services-intro"><div><span class="section-label">Tư vấn · Thiết kế mẫu · Thêu theo yêu cầu</span><h2 id="servicesTitle">Bạn muốn thêu<br>trên áo nào?</h2></div><p>Từ một chiếc polo mang tên riêng đến đồng phục cho cả đội hay áo đôi có chung một câu chuyện. ATUS nhận ý tưởng, tư vấn thiết kế mẫu thêu và cùng bạn chọn cách thể hiện trên áo.</p></div>
+        <div class="service-tabs" role="tablist" aria-label="Chọn loại áo cần tư vấn" hidden>
+          <button type="button" id="tab-polo" role="tab" aria-controls="service-polo" aria-selected="true" data-service-tab="polo">Áo polo</button>
+          <button type="button" id="tab-uniform" role="tab" aria-controls="service-uniform" aria-selected="false" tabindex="-1" data-service-tab="uniform">Áo đồng phục</button>
+          <button type="button" id="tab-couple" role="tab" aria-controls="service-couple" aria-selected="false" tabindex="-1" data-service-tab="couple">Áo đôi</button>
+        </div>
+        <div class="service-panel" id="service-polo" data-service-panel="polo">
+          <div class="service-visual"><img id="poloPreview" src="assets/services/polo-white.webp" srcset="assets/services/polo-white-520.webp 520w, assets/services/polo-white.webp 1000w" sizes="(max-width: 700px) 90vw, 45vw" width="1000" height="994" loading="lazy" decoding="async" alt="Gợi ý phôi áo polo trắng trên ba ma-nơ-canh"><span class="service-image-label">Polo / Gợi ý phôi áo</span></div>
+          <div class="service-copy"><span class="section-label">Lịch sự, và có dấu ấn riêng</span><h3>Áo polo thêu<br>theo ý bạn.</h3><p>Thêu tên, logo hoặc một chi tiết nhỏ trên áo polo. ATUS tư vấn bố cục, màu chỉ và vị trí để mẫu thêu đi cùng phom áo.</p>
+            <div class="polo-colors" role="group" aria-label="Xem màu áo polo" hidden><button type="button" class="polo-swatch" data-polo-color="white" aria-pressed="true"><span class="swatch-dot swatch-white" aria-hidden="true"></span>Trắng</button><button type="button" class="polo-swatch" data-polo-color="black" aria-pressed="false"><span class="swatch-dot swatch-black" aria-hidden="true"></span>Đen</button></div>
+            <p class="service-image-note" id="poloColorNote" role="status" aria-live="polite">Ảnh minh họa phôi áo polo trắng. Phom áo và màu thực tế được xác nhận khi tư vấn.</p>
+            <ul class="service-features"><li>Gợi ý bố cục từ logo, tên hoặc ý tưởng của bạn</li><li>Trao đổi vị trí, kích thước và màu chỉ</li><li>Báo giá theo mẫu thêu và số lượng</li></ul>
+            <div class="service-actions"><a class="button" href="#positions">Chọn vị trí thêu <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Tư vấn áo polo</a></div>
+          </div>
+        </div>
+        <div class="service-panel" id="service-uniform" data-service-panel="uniform">
+          <div class="service-visual"><img src="assets/services/polo-black.webp" srcset="assets/services/polo-black-520.webp 520w, assets/services/polo-black.webp 1000w" sizes="(max-width: 700px) 90vw, 45vw" width="1000" height="978" loading="lazy" decoding="async" alt="Gợi ý phối màu polo đen để tham khảo khi đặt đồng phục"><span class="service-image-label">Đồng phục / Thiết kế theo đội nhóm</span></div>
+          <div class="service-copy"><span class="section-label">Cùng một đội. Cùng một dấu ấn.</span><h3>Đồng phục mang<br>tên đội của bạn.</h3><p>Cho doanh nghiệp, cửa hàng, câu lạc bộ hay một nhóm bạn. Gửi logo hoặc tên nhóm để ATUS tư vấn mẫu thêu và cách sắp xếp trên áo.</p><p class="service-image-note">Polo đen là ảnh phối màu tham khảo. Kiểu áo, màu sắc và mẫu thêu sẽ được trao đổi riêng.</p>
+            <ul class="service-features"><li>Tư vấn vị trí đặt logo, tên và câu chữ</li><li>Thiết kế mẫu thêu theo nhận diện của nhóm</li><li>Trao đổi số lượng, bảng size và ngày cần áo</li></ul>
+            <div class="service-actions"><a class="button" href="#positions">Chọn vị trí thêu <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Tư vấn đồng phục</a></div>
+          </div>
+        </div>
+        <div class="service-panel" id="service-couple" data-service-panel="couple">
+          <div class="service-visual service-visual-couple"><img src="assets/products/web/10-cartoon-couple.webp" srcset="assets/products/web/10-cartoon-couple-480.webp 480w, assets/products/web/10-cartoon-couple.webp 960w" sizes="(max-width: 700px) 90vw, 45vw" width="960" height="960" loading="lazy" decoding="async" alt="Gợi ý áo đôi thêu nhân vật từ bộ sưu tập ATUS"><span class="service-image-label">Áo đôi / Hai chiếc áo, một câu chuyện</span></div>
+          <div class="service-copy"><span class="section-label">Một điều riêng của hai người</span><h3>Thêu kỷ niệm,<br>mặc cùng nhau.</h3><p>Tên viết tắt, ngày đáng nhớ, một nét vẽ hay hai hình thêu có liên kết. ATUS cùng bạn phát triển ý tưởng thành mẫu thêu cho hai chiếc áo.</p>
+            <ul class="service-features"><li>Tư vấn ý tưởng từ kỷ niệm và hình ảnh của bạn</li><li>Chọn mẫu giống nhau hoặc hai chi tiết kết nối</li><li>Trao đổi màu áo, vị trí và kích thước thêu</li></ul>
+            <div class="service-actions"><a class="button" href="#positions">Chọn vị trí thêu <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Tư vấn áo đôi</a></div>
+          </div>
+        </div>
+        <p class="services-footnote">Các dịch vụ thiết kế và thêu theo yêu cầu được báo giá riêng qua Zalo. Giá 280.000đ ở bộ sưu tập áp dụng cho các mẫu áo có sẵn.</p>
+      </div>
+    </section>
+
+    <section class="positions-section section-space" id="positions" aria-labelledby="positionsTitle">
+      <div class="container">
+        <div class="positions-heading"><div><span class="section-label">Đặt hình thêu đúng chỗ</span><h2 id="positionsTitle">Một vị trí nhỏ.<br>Một cách thể hiện khác.</h2></div><p>Chọn vị trí để xem minh họa. Trái và phải được tính theo người mặc; ATUS sẽ cùng bạn điều chỉnh cho phù hợp với phom áo, chất liệu và kích thước thiết kế.</p></div>
+        <figure class="positions-fallback"><a href="assets/services/embroidery-positions.webp" target="_blank" rel="noopener"><img src="assets/services/embroidery-positions.webp" width="1024" height="1536" alt="Bảng minh họa 16 vị trí thêu ATUS: mặt trước, tay áo và mặt sau" loading="lazy"></a><figcaption>Bấm vào ảnh để xem bảng vị trí thêu đầy đủ.</figcaption></figure>
+        <div class="placement-interactive" hidden><div class="placement-mobile-picker"><label for="placementSelect">Chọn vị trí thêu</label><select id="placementSelect"><optgroup label="Mặt trước"><option value="01">01 / Toàn bộ mặt trước</option><option value="02">02 / Lớn mặt trước</option><option value="03">03 / Giữa ngực</option><option value="04">04 / Ngang ngực</option><option value="05">05 / Ngực phải</option><option value="06" selected>06 / Ngực trái</option><option value="09">09 / Dọc bên phải</option><option value="10">10 / Dọc bên trái</option><option value="11">11 / Lai trước bên phải</option><option value="12">12 / Lai trước bên trái</option></optgroup><optgroup label="Tay áo"><option value="07">07 / Tay phải</option><option value="08">08 / Tay trái</option></optgroup><optgroup label="Mặt sau"><option value="13">13 / Toàn bộ mặt sau</option><option value="14">14 / Lớn mặt sau</option><option value="15">15 / Sau gáy (phía trong)</option><option value="16">16 / Ngang vai sau</option></optgroup></select></div>
+          <div class="placement-preview">
+            <div class="placement-view-label" id="placementView">Mặt trước</div>
+            <svg class="placement-shirt" id="placementSvg" viewBox="0 0 360 370" role="img" aria-labelledby="placementSvgTitle"><title id="placementSvgTitle">Minh họa vị trí thêu ngực trái</title><path class="shirt-outline" d="M118 43 Q180 69 242 43 L322 88 286 160 251 141 251 325 109 325 109 141 74 160 38 88Z"/><path class="shirt-neck" id="placementNeck" d="M142 48 Q180 97 218 48"/><path class="shirt-seams" d="M109 141 99 91M251 141 261 91M111 315H249M46 92 78 147M314 92 282 147"/><g class="shirt-highlight" id="placementHighlight"><rect x="208" y="108" width="27" height="27" rx="2"/></g></svg>
+            <div class="placement-caption" role="status" aria-live="polite" aria-atomic="true"><h3 id="placementName">06 / Ngực trái</h3><p id="placementDescription">Logo, tên hoặc hình nhỏ ở ngực trái, tính theo phía người mặc.</p></div>
+            <a class="text-link placement-original" href="assets/services/embroidery-positions.webp" target="_blank" rel="noopener">Xem bảng 16 vị trí đầy đủ <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          </div>
+          <fieldset class="placement-choices"><legend class="sr-only">Chọn một trong 16 vị trí thêu</legend><div class="position-group"><h3>Mặt trước</h3><div class="position-options"><label class="position-option"><input type="radio" name="embroidery-position" value="01"><span><small>01</small>Toàn bộ mặt trước</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="02"><span><small>02</small>Lớn mặt trước</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="03"><span><small>03</small>Giữa ngực</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="04"><span><small>04</small>Ngang ngực</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="05"><span><small>05</small>Ngực phải</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="06" checked><span><small>06</small>Ngực trái</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="09"><span><small>09</small>Dọc bên phải</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="10"><span><small>10</small>Dọc bên trái</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="11"><span><small>11</small>Lai trước bên phải</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="12"><span><small>12</small>Lai trước bên trái</span></label></div></div><div class="position-group"><h3>Tay áo</h3><div class="position-options"><label class="position-option"><input type="radio" name="embroidery-position" value="07"><span><small>07</small>Tay phải</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="08"><span><small>08</small>Tay trái</span></label></div></div><div class="position-group"><h3>Mặt sau</h3><div class="position-options"><label class="position-option"><input type="radio" name="embroidery-position" value="13"><span><small>13</small>Toàn bộ mặt sau</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="14"><span><small>14</small>Lớn mặt sau</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="15"><span><small>15</small>Sau gáy (phía trong)</span></label><label class="position-option"><input type="radio" name="embroidery-position" value="16"><span><small>16</small>Ngang vai sau</span></label></div></div></fieldset>
+        </div>
+        <div class="consultation-brief" hidden>
+          <div><span class="section-label">Gửi ATUS ý tưởng của bạn</span><p id="consultationSummary" aria-live="polite">Áo polo · Trắng · Ngực trái</p><small>Gửi kèm hình tham khảo, số lượng và ngày bạn cần áo khi nhắn Zalo.</small></div>
+          <div class="consultation-actions"><button type="button" class="button button-outline" id="copyConsultation">Sao chép yêu cầu</button><a class="button" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Mở Zalo tư vấn <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+          <p class="consultation-status" id="consultationStatus" role="status" aria-live="polite"></p>
+        </div>
       </div>
     </section>
 
@@ -294,7 +356,7 @@
 <details><summary>Thêu theo yêu cầu được báo giá thế nào?<span aria-hidden="true">+</span></summary><p>Chi phí phụ thuộc vào thiết kế, kích thước, vị trí thêu và số lượng. Gửi mẫu qua Zalo 0944 001 592 để nhận báo giá riêng. Mức 280.000đ trên website áp dụng cho các mẫu áo có sẵn được giới thiệu, không phải bảng giá thêu theo yêu cầu.</p></details>
 <details><summary>Mua áo có sẵn và chọn size ở đâu?<span aria-hidden="true">+</span></summary><p>Bấm vào mẫu áo để mở trang sản phẩm trên Shopee và xem màu, kích cỡ cùng các lựa chọn hiện có. Nếu phân vân, bạn có thể nhắn ATUS qua Zalo trước khi đặt.</p></details>
 <details><summary>Đơn thêu theo yêu cầu mất bao lâu?<span aria-hidden="true">+</span></summary><p>ATUS sẽ xác nhận thời gian theo thiết kế và số lượng bạn cần khi tư vấn. Nếu đặt làm quà hoặc có ngày cần nhận áo, hãy gửi kèm thời điểm đó khi trao đổi.</p></details>
-<details><summary>ATUS Clothing ở đâu?<span aria-hidden="true">+</span></summary><p>Địa chỉ của ATUS là Số 4 ngõ Tạm Thương, Hoàn Kiếm, Hà Nội. Bạn có thể gọi hoặc nhắn Zalo 0944 001 592 để trao đổi trước khi ghé.</p></details></div>
+<details><summary>ATUS Clothing ở đâu?<span aria-hidden="true">+</span></summary><p>Địa chỉ của ATUS là Số 4 ngõ Tạm Thương, phường Hoàn Kiếm, Hà Nội. Bạn có thể gọi hoặc nhắn Zalo 0944 001 592 để trao đổi trước khi ghé.</p></details></div>
     </section>
 
     <section class="closing-section">
@@ -303,7 +365,7 @@
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="wordmark" href="#top" aria-label="ATUS Clothing — về đầu trang"><span class="wordmark-main">atus<span class="wordmark-thread" aria-hidden="true">✳</span></span><span class="wordmark-sub">clothing</span></a><p>Những sợi chỉ gắn kết.<br>Thêu vi tính, thêu theo yêu cầu.</p></div><div class="footer-address"><h2>Ghé ATUS tại Hà Nội</h2><address>Số 4 ngõ Tạm Thương,<br>Hoàn Kiếm, Hà Nội</address><a href="https://www.google.com/maps/search/?api=1&amp;query=S%E1%BB%91%204%20ng%C3%B5%20T%E1%BA%A1m%20Th%C6%B0%C6%A1ng%2C%20Ho%C3%A0n%20Ki%E1%BA%BFm%2C%20H%C3%A0%20N%E1%BB%99i" target="_blank" rel="noopener noreferrer">Xem đường đi ↗</a></div><div class="footer-links"><h2>Kết nối với ATUS</h2><a href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener noreferrer">Gian hàng Shopee</a><a href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Zalo 0944 001 592</a><a href="#custom">Thêu theo yêu cầu</a></div></div><div class="container footer-bottom"><p>© 2026 ATUS Clothing</p><a href="#top">Lên đầu trang ↑</a></div></footer>
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="wordmark" href="#top" aria-label="ATUS Clothing — về đầu trang"><span class="wordmark-main">atus<span class="wordmark-thread" aria-hidden="true">✳</span></span><span class="wordmark-sub">clothing</span></a><p>Những sợi chỉ gắn kết.<br>Thêu vi tính, thêu theo yêu cầu.</p></div><div class="footer-address"><h2>Ghé ATUS tại Hà Nội</h2><address>Số 4 ngõ Tạm Thương,<br>phường Hoàn Kiếm, Hà Nội</address><a href="https://www.google.com/maps/search/?api=1&amp;query=S%E1%BB%91%204%20ng%C3%B5%20T%E1%BA%A1m%20Th%C6%B0%C6%A1ng%2C%20ph%C6%B0%E1%BB%9Dng%20Ho%C3%A0n%20Ki%E1%BA%BFm%2C%20H%C3%A0%20N%E1%BB%99i" target="_blank" rel="noopener noreferrer">Xem đường đi ↗</a></div><div class="footer-links"><h2>Kết nối với ATUS</h2><a href="https://shopee.vn/atus.clothing#product_list" target="_blank" rel="noopener noreferrer">Gian hàng Shopee</a><a href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer">Zalo 0944 001 592</a><a href="#custom">Thêu theo yêu cầu</a></div></div><div class="container footer-business"><p>HỘ KINH DOANH ATUS CLOTHING</p><p>Mã số hộ kinh doanh: <span>001201012835</span></p><p>Trụ sở: Số 4 ngõ Tạm Thương, phường Hoàn Kiếm, thành phố Hà Nội, Việt Nam.</p></div><div class="container footer-bottom"><p>© 2026 ATUS Clothing</p><a href="#top">Lên đầu trang ↑</a></div></footer>
 
   <a class="zalo-float" href="https://zalo.me/0944001592" target="_blank" rel="noopener noreferrer" aria-label="Chat với ATUS qua Zalo 0944001592"><span class="zalo-symbol">Zalo</span><span class="zalo-text">Nhắn ATUS<small>0944 001 592</small></span></a>
   <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
