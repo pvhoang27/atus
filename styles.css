@@ -41,7 +41,6 @@ h2{color:var(--wine);font-size:clamp(30px,3.15vw,46px);font-weight:600;line-heig
 .header-inner{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .wordmark{display:inline-flex;flex-direction:column;align-items:flex-start;color:var(--wine);line-height:1;flex-shrink:0}
 .wordmark-main{font-weight:700;font-size:49px;letter-spacing:-4px;line-height:.95;position:relative}
-.wordmark-thread{font-size:25px;letter-spacing:0;position:absolute;right:-22px;top:-2px}
 .wordmark-sub{font-size:10px;letter-spacing:4px;padding:6px 0 0 3px}
 .main-nav{display:flex;gap:29px;align-items:center}
 .main-nav a{font-size:12px;padding:12px 0;position:relative}
@@ -309,7 +308,6 @@ h1{font-size:clamp(48px,5.05vw,76px);font-weight:600;line-height:1.18;letter-spa
  .announcement>a{display:none}
  .header-inner{min-height:73px;gap:14px}
  .wordmark-main{font-size:40px}
- .wordmark-thread{font-size:22px;right:-20px}
  .wordmark-sub{font-size:8px;letter-spacing:3.5px;padding-top:5px}
  .header-actions{gap:8px}
  .header-actions>.button{font-size:11px;min-height:39px;padding:8px 13px;gap:8px}
@@ -485,10 +483,10 @@ h1{font-size:clamp(48px,5.05vw,76px);font-weight:600;line-height:1.18;letter-spa
 .hero-art{position:absolute;z-index:0;inset:0;width:100%;height:100%;overflow:hidden}
 .hero-stitch,.hero-tag,.hero-photo figcaption{display:none}
 .hero-photo{position:absolute;transform:none;padding:0;background:none;box-shadow:none}
-.hero-photo-main{left:0;top:0;width:74%;height:100%}
-.hero-photo-secondary{left:auto;top:0;right:0;bottom:auto;width:26%;height:100%;z-index:0}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 34%}
-.hero-photo-secondary img{object-position:center 30%}
+.hero-photo-main{left:0;top:0;width:58%;height:100%}
+.hero-photo-secondary{left:auto;top:0;right:0;bottom:auto;width:42%;height:100%;z-index:0}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:55% 12%}
+.hero-photo-secondary img{object-position:52% 11%}
 .service-strip{overflow:hidden;background:var(--orange);color:#fff;border:0}
 .service-track{display:flex;align-items:center;gap:40px;width:max-content;min-height:69px;animation:atus-marquee 27s linear infinite;white-space:nowrap}
 .service-track span{font-size:15px;letter-spacing:.08em;font-weight:700}
@@ -546,8 +544,8 @@ h1{font-size:clamp(48px,5.05vw,76px);font-weight:600;line-height:1.18;letter-spa
  .js-ready .main-nav{background:var(--ink);border-color:#ffffff29;box-shadow:0 14px 20px #18181330}
  .hero{min-height:640px;height:calc(100svh - 112px);padding-inline:36px}
  .hero h1{font-size:clamp(60px,8vw,80px)}
- .hero-photo-main{width:74%;height:100%;left:0;top:0}
- .hero-photo-secondary{width:26%;height:100%;right:0;top:0;bottom:auto}
+ .hero-photo-main{width:58%;height:100%;left:0;top:0}
+ .hero-photo-secondary{width:42%;height:100%;right:0;top:0;bottom:auto}
  .hero-photo img{height:100%}
  .hero::before{background:linear-gradient(90deg,rgba(11,12,10,.88),rgba(11,12,10,.65) 44%,rgba(11,12,10,.2) 78%),linear-gradient(0deg,rgba(11,12,10,.28),transparent 60%)}
  .service-track{min-height:60px;gap:30px}
@@ -563,9 +561,9 @@ h1{font-size:clamp(48px,5.05vw,76px);font-weight:600;line-height:1.18;letter-spa
  .hero-actions .button{font-size:11px}
  .hero-actions .text-link{font-size:10px}
  .hero-art{position:absolute;inset:0;width:100%;height:100%;max-width:none;margin:0}
- .hero-photo-main{width:100%;height:100%;top:0;left:0}
- .hero-photo-main img{object-position:50% 28%;height:100%}
- .hero-photo-secondary{display:none}
+ .hero-photo-main{width:50%;height:100%;top:0;left:0}
+ .hero-photo-main img{object-position:57% 12%;height:100%}
+ .hero-photo-secondary{display:block;width:50%;height:100%;right:0;top:0;bottom:auto}
  .service-track{min-height:54px;gap:24px}
  .service-track span{font-size:11px}
  .service-track i{font-size:15px}
